@@ -2,6 +2,10 @@
 
 EyeZen 是一款 macOS 應用程式，旨在保護您的視力。它使用設備的攝影機來估算您與螢幕之間的距離。當您靠得太近時，它會自動對螢幕應用模糊效果，提醒您保持健康的觀看距離。您可以透過菜單欄圖示輕鬆控制應用程式。
 
+## Authors
+-   [@HenryChang6](https://github.com/HenryChang6)
+-   [@jellyfish0316](https://github.com/jellyfish0316)
+
 ## 功能
 
 -   即時人臉偵測與距離估算
@@ -59,4 +63,5 @@ EyeZen 是一款 macOS 應用程式，旨在保護您的視力。它使用設備
 ### 示範影片
 p.s. 建議關掉聲音 錄影時外面在施工聲音有點大
 https://youtube.com/shorts/s0YXrTgxJqQ?feature=share
+
 
