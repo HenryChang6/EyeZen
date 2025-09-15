@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B8026F72DD84827002DECCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8026F62DD84827002DECCB /* AppDelegate.swift */; };
+		5B8026F92DD84827002DECCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8026F82DD84827002DECCB /* ViewController.swift */; };
+		5B8026FB2DD8482B002DECCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8026FA2DD8482B002DECCB /* Assets.xcassets */; };
+		5B8026FE2DD8482B002DECCB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5B8026FD2DD8482B002DECCB /* Base */; };
+		5B8027092DD8482C002DECCB /* EyeZenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8027082DD8482C002DECCB /* EyeZenTests.swift */; };
+		5B8027132DD8482C002DECCB /* EyeZenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8027122DD8482C002DECCB /* EyeZenUITests.swift */; };
+		5B8027152DD8482C002DECCB /* EyeZenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8027142DD8482C002DECCB /* EyeZenUITestsLaunchTests.swift */; };
+		5B8027232DD84C27002DECCB /* BlurWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8027222DD84C27002DECCB /* BlurWindowController.swift */; };
+		5B8027252DD84DE7002DECCB /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8027242DD84DE7002DECCB /* CameraManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B8027052DD8482C002DECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8026EB2DD84827002DECCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8026F22DD84827002DECCB;
+			remoteInfo = EyeZen;
+		};
+		5B80270F2DD8482C002DECCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B8026EB2DD84827002DECCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8026F22DD84827002DECCB;
+			remoteInfo = EyeZen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B8026F32DD84827002DECCB /* EyeZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8026F62DD84827002DECCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B8026F82DD84827002DECCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B8026FA2DD8482B002DECCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B8026FD2DD8482B002DECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B8026FF2DD8482B002DECCB /* EyeZen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EyeZen.entitlements; sourceTree = "<group>"; };
+		5B8027042DD8482C002DECCB /* EyeZenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeZenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8027082DD8482C002DECCB /* EyeZenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeZenTests.swift; sourceTree = "<group>"; };
+		5B80270E2DD8482C002DECCB /* EyeZenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeZenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8027122DD8482C002DECCB /* EyeZenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeZenUITests.swift; sourceTree = "<group>"; };
+		5B8027142DD8482C002DECCB /* EyeZenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeZenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B8027212DD84B48002DECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5B8027222DD84C27002DECCB /* BlurWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurWindowController.swift; sourceTree = "<group>"; };
+		5B8027242DD84DE7002DECCB /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B8026F02DD84827002DECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8027012DD8482C002DECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B80270B2DD8482C002DECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8026EA2DD84827002DECCB = {
+			isa = PBXGroup;
+			children = (
+				5B8026F52DD84827002DECCB /* EyeZen */,
+				5B8027072DD8482C002DECCB /* EyeZenTests */,
+				5B8027112DD8482C002DECCB /* EyeZenUITests */,
+				5B8026F42DD84827002DECCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B8026F42DD84827002DECCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B8026F32DD84827002DECCB /* EyeZen.app */,
+				5B8027042DD8482C002DECCB /* EyeZenTests.xctest */,
+				5B80270E2DD8482C002DECCB /* EyeZenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B8026F52DD84827002DECCB /* EyeZen */ = {
+			isa = PBXGroup;
+			children = (
+				5B8027212DD84B48002DECCB /* Info.plist */,
+				5B8026F62DD84827002DECCB /* AppDelegate.swift */,
+				5B8026F82DD84827002DECCB /* ViewController.swift */,
+				5B8026FA2DD8482B002DECCB /* Assets.xcassets */,
+				5B8026FC2DD8482B002DECCB /* Main.storyboard */,
+				5B8026FF2DD8482B002DECCB /* EyeZen.entitlements */,
+				5B8027222DD84C27002DECCB /* BlurWindowController.swift */,
+				5B8027242DD84DE7002DECCB /* CameraManager.swift */,
+			);
+			path = EyeZen;
+			sourceTree = "<group>";
+		};
+		5B8027072DD8482C002DECCB /* EyeZenTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B8027082DD8482C002DECCB /* EyeZenTests.swift */,
+			);
+			path = EyeZenTests;
+			sourceTree = "<group>";
+		};
+		5B8027112DD8482C002DECCB /* EyeZenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B8027122DD8482C002DECCB /* EyeZenUITests.swift */,
+				5B8027142DD8482C002DECCB /* EyeZenUITestsLaunchTests.swift */,
+			);
+			path = EyeZenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B8026F22DD84827002DECCB /* EyeZen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8027182DD8482C002DECCB /* Build configuration list for PBXNativeTarget "EyeZen" */;
+			buildPhases = (
+				5B8026EF2DD84827002DECCB /* Sources */,
+				5B8026F02DD84827002DECCB /* Frameworks */,
+				5B8026F12DD84827002DECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EyeZen;
+			productName = EyeZen;
+			productReference = 5B8026F32DD84827002DECCB /* EyeZen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B8027032DD8482C002DECCB /* EyeZenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B80271B2DD8482C002DECCB /* Build configuration list for PBXNativeTarget "EyeZenTests" */;
+			buildPhases = (
+				5B8027002DD8482C002DECCB /* Sources */,
+				5B8027012DD8482C002DECCB /* Frameworks */,
+				5B8027022DD8482C002DECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8027062DD8482C002DECCB /* PBXTargetDependency */,
+			);
+			name = EyeZenTests;
+			productName = EyeZenTests;
+			productReference = 5B8027042DD8482C002DECCB /* EyeZenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B80270D2DD8482C002DECCB /* EyeZenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B80271E2DD8482C002DECCB /* Build configuration list for PBXNativeTarget "EyeZenUITests" */;
+			buildPhases = (
+				5B80270A2DD8482C002DECCB /* Sources */,
+				5B80270B2DD8482C002DECCB /* Frameworks */,
+				5B80270C2DD8482C002DECCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B8027102DD8482C002DECCB /* PBXTargetDependency */,
+			);
+			name = EyeZenUITests;
+			productName = EyeZenUITests;
+			productReference = 5B80270E2DD8482C002DECCB /* EyeZenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B8026EB2DD84827002DECCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5B8026F22DD84827002DECCB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5B8027032DD8482C002DECCB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5B8026F22DD84827002DECCB;
+					};
+					5B80270D2DD8482C002DECCB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5B8026F22DD84827002DECCB;
+					};
+				};
+			};
+			buildConfigurationList = 5B8026EE2DD84827002DECCB /* Build configuration list for PBXProject "EyeZen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B8026EA2DD84827002DECCB;
+			productRefGroup = 5B8026F42DD84827002DECCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B8026F22DD84827002DECCB /* EyeZen */,
+				5B8027032DD8482C002DECCB /* EyeZenTests */,
+				5B80270D2DD8482C002DECCB /* EyeZenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B8026F12DD84827002DECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8026FB2DD8482B002DECCB /* Assets.xcassets in Resources */,
+				5B8026FE2DD8482B002DECCB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8027022DD8482C002DECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B80270C2DD8482C002DECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B8026EF2DD84827002DECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8026F92DD84827002DECCB /* ViewController.swift in Sources */,
+				5B8026F72DD84827002DECCB /* AppDelegate.swift in Sources */,
+				5B8027252DD84DE7002DECCB /* CameraManager.swift in Sources */,
+				5B8027232DD84C27002DECCB /* BlurWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8027002DD8482C002DECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8027092DD8482C002DECCB /* EyeZenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B80270A2DD8482C002DECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8027152DD8482C002DECCB /* EyeZenUITestsLaunchTests.swift in Sources */,
+				5B8027132DD8482C002DECCB /* EyeZenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B8027062DD8482C002DECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B8026F22DD84827002DECCB /* EyeZen */;
+			targetProxy = 5B8027052DD8482C002DECCB /* PBXContainerItemProxy */;
+		};
+		5B8027102DD8482C002DECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B8026F22DD84827002DECCB /* EyeZen */;
+			targetProxy = 5B80270F2DD8482C002DECCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B8026FC2DD8482B002DECCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B8026FD2DD8482B002DECCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B8027162DD8482C002DECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B8027172DD8482C002DECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5B8027192DD8482C002DECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EyeZen/EyeZen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EyeZen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EyeZen;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "我們需要使用您的相機來偵測眼睛距離";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryanchan.EyeZen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5B80271A2DD8482C002DECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EyeZen/EyeZen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EyeZen/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EyeZen;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "我們需要使用您的相機來偵測眼睛距離";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryanchan.EyeZen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5B80271C2DD8482C002DECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryanchan.EyeZenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeZen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EyeZen";
+			};
+			name = Debug;
+		};
+		5B80271D2DD8482C002DECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryanchan.EyeZenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeZen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EyeZen";
+			};
+			name = Release;
+		};
+		5B80271F2DD8482C002DECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryanchan.EyeZenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EyeZen;
+			};
+			name = Debug;
+		};
+		5B8027202DD8482C002DECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryanchan.EyeZenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EyeZen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B8026EE2DD84827002DECCB /* Build configuration list for PBXProject "EyeZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8027162DD8482C002DECCB /* Debug */,
+				5B8027172DD8482C002DECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8027182DD8482C002DECCB /* Build configuration list for PBXNativeTarget "EyeZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B8027192DD8482C002DECCB /* Debug */,
+				5B80271A2DD8482C002DECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B80271B2DD8482C002DECCB /* Build configuration list for PBXNativeTarget "EyeZenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B80271C2DD8482C002DECCB /* Debug */,
+				5B80271D2DD8482C002DECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B80271E2DD8482C002DECCB /* Build configuration list for PBXNativeTarget "EyeZenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B80271F2DD8482C002DECCB /* Debug */,
+				5B8027202DD8482C002DECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B8026EB2DD84827002DECCB /* Project object */;
+}
